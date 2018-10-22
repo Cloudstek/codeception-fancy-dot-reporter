@@ -1,0 +1,23 @@
+{
+    "name": "cloudstek/codeception-fancy-dot-reporter",
+    "description": "Enhanced version of the DotReporter found in Codeception",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Maarten de Boer",
+            "email": "maarten@cloudstek.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cloudstek\\Codeception\\Extension\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^2.3",
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "squizlabs/php_codesniffer": "^3.3"
+    }
+}
